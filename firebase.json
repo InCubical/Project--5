@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "public",
+    "site": "incubical-project--5",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
