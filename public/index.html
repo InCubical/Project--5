@@ -70,39 +70,28 @@
 
     <script type="application/ld+json">
         {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "incubical",
-        "url": "https://incubical.in",
-        "logo": "https://firebasestorage.googleapis.com/v0/b/incubical-007.appspot.com/o/pathan%20photos%2Flogo%20with%20name%20-%20Black-01.png?alt=media&token=b215b033-1033-47a3-b161-b5b150503b2e",
-        "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+91 63617 56685",
-        "contactType": "customer service",
-        "availableLanguage": "English"
-        },
-        "sameAs": [
-        "https://www.facebook.com/incubical/",
-        "https://twitter.com/incubical_",
-        "https://www.instagram.com/incubical_",
-        "https://in.linkedin.com/company/incubical",
-        "https://in.pinterest.com/incubical/",
-        "https://github.com/InCubical/",
-        "https://www.behance.net/InCubical"
-        ]
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "incubical",
+            "url": "https://incubical.in",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/incubical-007.appspot.com/o/pathan%20photos%2Flogo%20with%20name%20-%20Black-01.png?alt=media&token=b215b033-1033-47a3-b161-b5b150503b2e",
+            "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+91 63617 56685",
+            "contactType": "customer service",
+            "availableLanguage": "English"
+            },
+            "sameAs": [
+            "https://www.facebook.com/incubical/",
+            "https://twitter.com/incubical_",
+            "https://www.instagram.com/incubical_",
+            "https://in.linkedin.com/company/incubical",
+            "https://in.pinterest.com/incubical/",
+            "https://github.com/InCubical/",
+            "https://www.behance.net/InCubical"
+            ]
         }
     </script>
-
-    <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-NNRHTZ8M');</script>
-    <!-- End Google Tag Manager -->
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L7BX6RLG64"></script>
@@ -114,27 +103,98 @@
         gtag('config', 'G-L7BX6RLG64');
     </script>
 
-    <title>InCubical</title>
+    <title>InCubical - Project - 5</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
-
-
-
-    <div class="banner">
-        <div class="content">
-            <h1>InCubical
-            </h1>
-        </div>
-    </div>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NNRHTZ8M" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) --><!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NNRHTZ8M" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+    <header>
+        <figure class="logo">
+            <img src="img/logo.png" alt="">
+        </figure>
+        <nav>
+            <ul>
+                <li>HOME</li>
+                <li>INFO</li>
+                <li>LOGIN</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="carousel">
+        <div class="list">
+            <div class="item ">
+                <figure>
+                    <img src="img/3.png">
+                </figure>
+                <div class="content">
+                    <p class="category">
+                        Sport Shoes
+                    </p>
+                    <h2>
+                        ULTRABOUNCE
+                    </h2>
+
+                    <div class="more">
+
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img src="img/2.png">
+                </figure>
+                <div class="content">
+                    <p class="category">
+                        Sport Shoes
+                    </p>
+                    <h2>
+                        OZWEEGO
+                    </h2>
+
+                    <div class="more">
+
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img src="img/1.png">
+                </figure>
+                <div class="content">
+                    <p class="category">
+                        Sport Shoes
+                    </p>
+                    <h2>
+                        FORUM MID
+                    </h2>
+
+                    <div class="more">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="arrows">
+            <button id="prev"><i class="fa-solid fa-chevron-left"></i></button>
+            <button id="next"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+        <div class="indicators">
+            <div class="number">02</div>
+            <ul>
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
 </body>
 
 </html>
